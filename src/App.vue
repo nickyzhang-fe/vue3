@@ -16,4 +16,7 @@
 body {
   margin: 0;
 }
+img {
+  display: inline-block !important; 
+}
 </style>

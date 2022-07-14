@@ -26,14 +26,25 @@ const mergeArr = ref(_.concat(arrL.value, arrR.value))
       </div>
     </div>
     <div class="font-bold black text-size-20px my-10px">
-      ①测试SCSS
+      ②测试SCSS
     </div>
     <div class="font-bold black text-size-20px my-10px">
-      ①测试JSON
+      ③测试JSON
     </div>
     <div class="flex justify-between">
       <div class="w-500px text font-500">
         JSON: {{ desc }}
+      </div>
+    </div>
+    <div class="font-bold black text-size-20px my-10px">
+      ④测试SVG
+    </div>
+    <div class="flex justify-between">
+      <div class="w-500px text font-500">
+        <img
+          src="../../assets/logo.svg"
+          class="w-50px"
+        >
       </div>
     </div>
   </div>
