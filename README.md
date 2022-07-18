@@ -26,3 +26,8 @@ yarn add vite-plugin-windicss windicss --save-dev
 ```
 yarn add lodash --save
 ```
+3. 引入 [minimist](https://www.npmjs.com/package/minimist)解析node脚本传参
+
+```
+yarn add minimist --save
+```
