@@ -7,8 +7,6 @@ const arrL = ref([1,2,3,4])
 const arrR = ref([1,2,4])
 const mergeArr = ref(_.concat(arrL.value, arrR.value))
 
-
-
 </script>
 <template>
   <div class="flex flex-col p-30px items-center demo">
